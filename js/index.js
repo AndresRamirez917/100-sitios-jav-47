@@ -26,4 +26,25 @@ async function getData() {
     });
 }
 
+const addNav = () => {
+    const nav = document.createRange().createContextualFragment(`
+        
+        <nav class="navbar">
+            <div class="container">
+                <a href="#showcase" class="logo">Testimonials</a>
+                <ul class="lista">
+                    <li><a href="#testimonials">testimonials</a></li>
+                    <li><a href="#footer">footer</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+        `)
+        const mainheader = document.getElementById('mainheader');
+        mainheader.append(nav) 
+}
+addNav()
+
+
 getData()

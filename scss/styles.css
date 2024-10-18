@@ -42,6 +42,36 @@ body, html {
   text-align: left;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#mainheader {
+  width: 80%;
+  margin: 0 auto;
+}
+#mainheader .navbar {
+  margin-top: 2rem;
+}
+#mainheader .navbar .logo {
+  color: red;
+}
+#mainheader .navbar ul {
+  display: flex;
+  text-align: center;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 #showcase {
   width: 80%;
   text-align: left;
