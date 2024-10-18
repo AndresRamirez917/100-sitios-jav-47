@@ -15,5 +15,8 @@
 #testimonials {
     .test-row {
         display: block;
+        .box {
+            width: 100%;
+        }
     }
 }

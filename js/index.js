@@ -9,8 +9,9 @@ async function getData() {
             <div class="test-row-img">
                 <img src="${element.picture.large}" alt="">
                     <div class="test-row-name">
-                        <h5>Anna Wallace</h5>
-                        <h5 class="buyer">Verified Buyer</h5>
+                        <h5>${element.name.first} ${element.name.last}</h5>
+
+                        <h5 class="buyer">City: ${element.location.city}</h5>
                     </div>
             </div>
             <div class="test-row-text">

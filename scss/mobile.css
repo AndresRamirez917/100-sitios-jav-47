@@ -10,4 +10,7 @@
 
 #testimonials .test-row {
   display: block;
+}
+#testimonials .test-row .box {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */
