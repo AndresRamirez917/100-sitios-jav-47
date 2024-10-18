@@ -82,6 +82,7 @@ body, html {
     margin: 0 auto;
     .test-row {
         display: flex;
+        flex-wrap:wrap;
         flex: 1;
         gap: 20px;
         margin-bottom: 10px;
@@ -91,6 +92,7 @@ body, html {
                 gap: 30px;
                 margin-bottom: 1rem;
             }
+            width: 30%;
         }
     }
 }

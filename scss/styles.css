@@ -68,9 +68,13 @@ body, html {
 }
 #testimonials .test-row {
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   gap: 20px;
   margin-bottom: 10px;
+}
+#testimonials .test-row .box {
+  width: 30%;
 }
 #testimonials .test-row .box .test-row-img {
   display: flex;
