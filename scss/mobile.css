@@ -1,0 +1,13 @@
+#showcase {
+  text-align: center;
+}
+#showcase .showcase-content p {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+#testimonials .test-row {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */

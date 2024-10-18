@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background: #000;
+}
+
+.container {
+  max-width: 1300px;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.box {
+  padding: 30px;
+  background: #1d1d1d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.box .test-row-img img {
+  width: 20%;
+  border-radius: 50%;
+}
+.box .test-row-img .test-row-name h5:first-child {
+  color: white;
+  font-weight: 400;
+}
+.box .test-row-img .test-row-name .buyer {
+  color: violet;
+  font-weight: 400;
+}
+.box .test-row-text {
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+}
+
+#showcase {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+}
+#showcase .showcase-content {
+  color: #fff;
+}
+#showcase .showcase-content h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 2rem 0 2rem 0;
+}
+#showcase .showcase-content p {
+  width: 70%;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#testimonials {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+#testimonials .test-row {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+#testimonials .test-row .box .test-row-img {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 1rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 3em 0;
+}/*# sourceMappingURL=styles.css.map */

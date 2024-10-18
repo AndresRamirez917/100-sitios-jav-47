@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack: "Poppins", sans-serif;
+$background-full-color: #000;
+$background-box: #1d1d1d;
+$text-color: #fff;
+$h1-font-size: 3rem;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+    background: $background-full-color;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.box {
+    padding: 30px;
+    background: $background-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    .test-row-img {
+        img {
+            width: 20%;
+            border-radius: 50%;
+        }
+        .test-row-name {
+            h5:first-child {
+                color: white;
+                font-weight: 400;
+            }
+            .buyer {
+                color: violet;
+                font-weight: 400;
+            }
+        }
+        
+    }
+    .test-row-text{
+        color: #fff;
+        font-size: 12px;
+        text-align: left;
+    }
+}
+
+//showcase
+#showcase {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    .showcase-content {
+        color: $text-color;
+        h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            margin: 2rem 0 2rem 0;
+        }
+        p {
+            width: 70%;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+    }
+  
+}
+
+//testimonial
+#testimonials {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    .test-row {
+        display: flex;
+        flex: 1;
+        gap: 20px;
+        margin-bottom: 10px;
+        .box {
+            .test-row-img{
+                display: flex;
+                gap: 30px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+//footer
+#footer {
+    text-align: center;
+    padding: 3em 0;
+}
