@@ -12,6 +12,7 @@ async function getData() {
                         <h5>${element.name.first} ${element.name.last}</h5>
 
                         <h5 class="buyer">City: ${element.location.city}</h5>
+                        <h5 class="buyer">Country: ${element.location.country}</h5>
                     </div>
             </div>
             <div class="test-row-text">
